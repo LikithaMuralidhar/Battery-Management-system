@@ -562,7 +562,7 @@ Academic Year: 2021-2022
 
 ### Project Maintainers
 
-- **Email:** bms-project@bnmit.edu.in
+- **Email:** likithm18ee022@bnmit.edu.in
 - **Institution:** BNMIT, Department of EEE
 
 ## Project Status
