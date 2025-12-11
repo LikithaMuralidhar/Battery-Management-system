@@ -1,18 +1,12 @@
-# 🔋 Battery Management System for 48V Lithium-Ion Battery Pack
+# Battery Management System for 48V Lithium-Ion Battery Pack
 
 **A comprehensive BMS solution for 48V Li-Ion battery packs with real-time monitoring and protection**
-
-[Features](#-features) •
-[Specifications](#-specifications) •
-[Installation](#-installation) •
-[Usage](#-usage) •
-
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
@@ -29,24 +23,24 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project presents a complete Battery Management System (BMS) designed for 48V Lithium-Ion battery packs. The system provides comprehensive monitoring, protection, and balancing capabilities for applications such as electric vehicles, e-bikes, and energy storage systems.
 
 ### Key Highlights
 
-- ✅ 13S10P Configuration (130 cells total)
-- ✅ Real-time monitoring via JBD Tools software
-- ✅ Active cell balancing
-- ✅ Multiple protection mechanisms
-- ✅ Open-source PCB design using KiCad
-- ✅ Tested with 1.2kW BLDC Hub Motor
+-  13S10P Configuration (130 cells total)
+-  Real-time monitoring via JBD Tools software
+- Active cell balancing
+- Multiple protection mechanisms
+- Open-source PCB design using KiCad
+- Tested with 1.2kW BLDC Hub Motor
 
 ---
 
-## ⚡ Features
+## Features
 
-### 🛡️ Protection Systems
+### Protection Systems
 
 | Feature | Description |
 |---------|-------------|
@@ -58,7 +52,7 @@ This project presents a complete Battery Management System (BMS) designed for 48
 | **Short Circuit Protection** | Immediate fault detection |
 | **MOSFET Control** | Separate charge/discharge management |
 
-### 📊 Monitoring Capabilities
+### Monitoring Capabilities
 
 - Real-time voltage for all 13 series cells
 - Pack voltage measurement
@@ -70,7 +64,7 @@ This project presents a complete Battery Management System (BMS) designed for 48
 
 ---
 
-## 🔧 Specifications
+## Specifications
 
 ### Battery Pack
 
@@ -107,7 +101,7 @@ Operating Temperature: -20°C to 60°C
 
 ---
 
-## 🔌 Hardware Components
+## Hardware Components
 
 ### Main Components
 
@@ -149,19 +143,19 @@ Operating Temperature: -20°C to 60°C
 
 ---
 
-## 🖥️ PCB Design
+## PCB Design
 
 ### Design Tools
 
 **Software:** [KiCad](https://www.kicad.org/) (Open-source EDA)
 
 ### Features
-- ✅ Schematic capture with hierarchical design
-- ✅ Multi-layer PCB layout
-- ✅ DRC (Design Rule Check) compliant
-- ✅ Gerber file generation
-- ✅ 3D visualization
-- ✅ SPICE simulation support
+- Schematic capture with hierarchical design
+- Multi-layer PCB layout
+- DRC (Design Rule Check) compliant
+- Gerber file generation
+- 3D visualization
+- SPICE simulation support
 
 ### Design Process
 
@@ -189,17 +183,17 @@ graph LR
 
 ---
 
-## 💻 Software Interface
+## Software Interface
 
 ### JBD Tools Software
 
 #### Key Features
 
-- 📡 **UART Communication** - Standard serial interface
-- 🎛️ **Parameter Configuration** - Adjust protection thresholds
-- 📊 **Real-time Monitoring** - Live data visualization
-- 🔔 **Alert System** - Protection status notifications
-- 💾 **Data Logging** - Track battery performance
+- **UART Communication** - Standard serial interface
+- **Parameter Configuration** - Adjust protection thresholds
+- **Real-time Monitoring** - Live data visualization
+- **Alert System** - Protection status notifications
+- **Data Logging** - Track battery performance
 
 #### Monitored Parameters
 
@@ -218,7 +212,7 @@ Alerts: All protection triggers
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Hardware Setup
 
@@ -362,51 +356,46 @@ Temp_Low = -10°C     # Low temperature limit
 - **Pack Voltage:** 47.39V
 - **Cell Voltage Range:** 3.632V - 3.667V (35mV spread)
 - **Temperature:** 24°C
-- **Status:** All protection systems operational ✅
+- **Status:** All protection systems operational 
 
 #### Test 2: Charging Process
 - **Charging Current:** 6.02A
 - **Cell Voltage Range:** 3.693V - 3.737V
 - **SoC:** 45% → Charging
-- **Protection:** Overcurrent limit enforced at 6.5A ✅
+- **Protection:** Overcurrent limit enforced at 6.5A 
 
 #### Test 3: Cell Balancing
 - **Balance Threshold:** 40mV
 - **Active Balancing:** Cells 1, 5, 9 (marked "ON")
 - **Pack Voltage:** 51.81V
 - **SoC:** 74%
-- **Result:** Successful voltage equalization ✅
+- **Result:** Successful voltage equalization 
 
 #### Test 4: Discharging
 - **Discharge Current:** -0.86A (motor at low speed)
 - **Cell Voltage Range:** 3.617V - 3.658V
 - **Pack Voltage:** 47.26V
 - **SoC:** 45%
-- **Motor Performance:** Stable operation ✅
+- **Motor Performance:** Stable operation 
 
 ### Key Achievements
-
-✅ **Prototype Validation** - 4-cell design successfully scaled to 13S10P  
-✅ **MATLAB Simulation** - Circuit analysis confirmed  
-✅ **Protection Systems** - All safety mechanisms functional  
-✅ **Temperature Monitoring** - Real-time tracking operational  
-✅ **MOSFET Control** - Proper switching behavior verified  
-✅ **Load Testing** - 1.2kW motor successfully powered  
+ **Prototype Validation** - 4-cell design successfully scaled to 13S10P  
+ **MATLAB Simulation** - Circuit analysis confirmed  
+ **Protection Systems** - All safety mechanisms functional  
+ **Temperature Monitoring** - Real-time tracking operational  
+ **MOSFET Control** - Proper switching behavior verified  
+ **Load Testing** - 1.2kW motor successfully powered  
 
 ---
 
-## ⚠️ Safety
+## Safety
 
-### Important Warnings
-
-> **⚠️ DANGER - LITHIUM-ION BATTERIES**
-> 
 > Improper handling can result in fire, explosion, or injury.
 > Always follow safety procedures.
 
 ### Safety Guidelines
 
-#### ✅ DO:
+#### DO:
 - Use appropriate safety equipment (goggles, gloves)
 - Work in well-ventilated areas
 - Keep fire extinguisher nearby (Class D)
@@ -416,7 +405,7 @@ Temp_Low = -10°C     # Low temperature limit
 - Test BMS functionality before full assembly
 - Store at 3.7-3.8V for long-term storage
 
-#### ❌ DON'T:
+#### DON'T:
 - Exceed rated voltage or current limits
 - Short circuit battery terminals
 - Puncture or damage cells
@@ -439,7 +428,7 @@ Temp_Low = -10°C     # Low temperature limit
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -454,7 +443,7 @@ Temp_Low = -10°C     # Low temperature limit
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -508,21 +497,9 @@ kicad bms-48v.kicad_pro
 │   ├── matlab/
 │   │   └── simulation_files/
 │   └── firmware/
-│       └── (if applicable)
-│
-├── documentation/
-│   ├── assembly_guide.md
-│   ├── user_manual.md
-│   ├── datasheets/
-│   └── images/
-│
-├── tests/
-│   ├── test_results.md
-│   └── performance_data/
+│       └── (firmware)
 │
 ├── README.md
-├── LICENSE
-└── CHANGELOG.md
 ```
 
 ---
