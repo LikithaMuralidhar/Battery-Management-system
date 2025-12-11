@@ -6,7 +6,7 @@
 [Specifications](#-specifications) •
 [Installation](#-installation) •
 [Usage](#-usage) •
-[Documentation](#-documentation)
+
 
 </div>
 
@@ -25,7 +25,6 @@
 - [Results](#-results)
 - [Safety](#-safety)
 - [Contributing](#-contributing)
-- [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
 ---
@@ -536,45 +535,7 @@ kicad bms-48v.kicad_pro
 
 ---
 
-## 📚 Documentation
 
-### Additional Resources
-
-- [Assembly Guide](docs/assembly_guide.md)
-- [User Manual](docs/user_manual.md)
-- [Troubleshooting Guide](docs/troubleshooting.md)
-- [API Documentation](docs/api.md)
-- [Schematic PDF](hardware/bms-schematic.pdf)
-
-### External Links
-
-- [KiCad Documentation](https://docs.kicad.org/)
-- [JBD Tools Download](https://www.lithiumbatterypcb.com/software-download/)
-- [Li-Ion Safety Guide](https://batteryuniversity.com/)
-- [Spot Welding Tutorial](https://www.youtube.com/watch?v=example)
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2022 BNMIT - Department of EEE
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-
-```
-
----
 
 ## 🎓 Acknowledgments
 
