@@ -534,18 +534,9 @@ Academic Year: 2021-2022
 - **Email:** likithm18ee022@bnmit.edu.in
 - **Institution:** BNMIT, Department of EEE
 
-## Project Status
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-![Coverage](https://img.shields.io/badge/coverage-85%25-yellow)
-![Last Commit](https://img.shields.io/badge/last%20commit-2022-blue)
-
----
-
 <div align="center">
 
-**Made with ❤️ by BNMIT EEE Department**
+**Made by BNMIT EEE Department**
 
 [⬆ Back to Top](#-battery-management-system-for-48v-lithium-ion-battery-pack)
 
